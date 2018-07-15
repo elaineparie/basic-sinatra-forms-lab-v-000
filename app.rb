@@ -14,6 +14,7 @@ end
 
 post '/new_team' do
   original_string = params["string"]
+  binding.pry
 @reversed_string = original_string.reverse
 
   erb :reversed
