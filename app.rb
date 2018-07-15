@@ -9,10 +9,9 @@ end
 # Add your post route and action below
 
 post '/new_team' do
-  original_string = params["string"]
   params.to_s
 
-  er
+  erb :team
 end
 
 
