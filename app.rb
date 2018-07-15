@@ -9,9 +9,7 @@ end
 # Add your post route and action below
 
 post '/newteam' do
-  binding.pry
  puts params
-binding.pry
   erb :team
 end
 
