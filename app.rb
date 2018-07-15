@@ -11,6 +11,8 @@ end
 post '/new_team' do
   @new_team = params.to_s
 
+  binding.pry
+
   erb :team
 end
 
