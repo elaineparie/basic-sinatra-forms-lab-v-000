@@ -8,7 +8,7 @@ end
 
 # Add your post route and action below
 
-post '/newteam' do
+post '/new_team' do
  params
 end
 
