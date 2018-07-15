@@ -6,8 +6,8 @@
  </head>
  <body>
 
-  <% @new_team.each do |x| %>
-  <% x %>
+  <% @new_team.each do |key, value| %>
+  <% "#{key}: #{value}" %>
   <% end %>
 
  </body>
