@@ -9,7 +9,7 @@ end
 # Add your post route and action below
 
 post '/new_team' do
- params
+ puts params
 end
 
 
