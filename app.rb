@@ -10,9 +10,14 @@ end
 
 post '/new_team' do
  puts params
- binding.pry
 end
 
+post '/reverse' do
+  original_string = params["string"]
+@reversed_string = original_string.reverse
+
+  erb :newteam
+end
 
 
 end
