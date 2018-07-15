@@ -10,7 +10,6 @@ end
 
 post '/newteam' do
   keys = params.keys.to_sym
-  binding.pry
  @new_team = params
 
   erb :team
