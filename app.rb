@@ -9,7 +9,6 @@ end
 # Add your post route and action below
 
 post '/newteam' do
-  keys = params.keys.to_sym
  @new_team = params
 
   erb :team
