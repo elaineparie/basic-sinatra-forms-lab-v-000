@@ -9,7 +9,7 @@ end
 # Add your post route and action below
 
 post '/newteam' do
-  keys = params.keys.to_s
+  keys = params.keys.to_sym
   binding.pry
  @new_team = params
 
