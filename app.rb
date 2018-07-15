@@ -7,7 +7,8 @@ class App < Sinatra::Base
 end
 
 # Add your post route and action below
-post '/newteam' do
+
+post '/new_team' do
 puts params
 end
 
