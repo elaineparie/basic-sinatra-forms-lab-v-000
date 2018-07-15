@@ -1,5 +1,5 @@
 require 'sinatra/base'
-
+binding.pry
 class App < Sinatra::Base
 
   get '/newteam' do
