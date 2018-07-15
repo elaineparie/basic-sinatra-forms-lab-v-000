@@ -9,7 +9,7 @@ end
 # Add your post route and action below
 
 post '/newteam' do
- puts params
+ @new_team = params
   erb :team
 end
 
