@@ -4,6 +4,7 @@ class App < Sinatra::Base
 
   get '/newteam' do
   erb :newteam
+  binding.pry
 end
 
 # Add your post route and action below
