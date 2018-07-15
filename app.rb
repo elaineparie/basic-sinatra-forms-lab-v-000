@@ -9,15 +9,12 @@ end
 # Add your post route and action below
 
 post '/new_team' do
-  params.to_s
-end
-
-post '/new_team' do
   original_string = params["string"]
-  binding.pry
-@reversed_string = original_string.reverse
+  params.to_s
 
-  erb :reversed
+  er
 end
+
+
 
 end
