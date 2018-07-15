@@ -10,6 +10,7 @@ end
 
 post '/new_team' do
  puts params
+ binding.pry
 end
 
 
