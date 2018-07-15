@@ -10,7 +10,7 @@ end
 
 post '/newteam' do
   binding.pry
-  @new_team = params
+ puts params
 binding.pry
   erb :team
 end
