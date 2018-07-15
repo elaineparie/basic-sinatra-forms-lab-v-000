@@ -12,4 +12,11 @@ post '/new_team' do
   params.to_s
 end
 
+post '/new_team' do
+  original_string = params["string"]
+@reversed_string = original_string.reverse
+
+  erb :reversed
+end
+
 end
