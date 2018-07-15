@@ -7,10 +7,9 @@
  </head>
  <body>
 
-  <% names = @new_team.values%>
-  binding.pry
-  <p><% names %> </p>
-
+  <% @new_team.each do |key, value|%>
+  <p><% "#{key}: #{value}" %> </p>
+  <% end %>
 
  </body>
 </html>
